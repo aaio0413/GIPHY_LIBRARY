@@ -1,0 +1,14 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Giphy Library",
+  "main": "library.js",
+  "scripts": {
+    "test": "Is this working?"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "giphy-js-sdk-core": "^1.0.3"
+  }
+}

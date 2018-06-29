@@ -1,0 +1,47 @@
+button {
+    size: 15px;
+}
+
+.button-wrapper {
+    margin: 25px, auto;
+}
+#buttons-view {
+    height: 25px;
+    padding: 20px;
+}
+
+.main-grid {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 8fr 2fr;
+}
+
+.gifs-wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 200px);
+    order: 1;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+}
+.form-wrapper {
+    order: 2;
+
+}
+
+.gifs {
+    border: solid 2px gray;
+}
+
+.add-gifs {
+    margin-right: 8px;
+}
+
+.form {
+    margin: 5px auto;
+}
+
