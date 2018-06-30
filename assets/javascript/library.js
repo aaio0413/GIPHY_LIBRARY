@@ -58,7 +58,7 @@ var displayGifs = function() {
             var imgWrapper = $('<div>', {class: "img-wrapper"});
             imgWrapper.attr( {'id': 'img' + i })
             img.addClass('gifs')
-            var rateLabel = $('<span>').text('rating: ' + rating)
+            var rateLabel = $('<p>').text('rating: ' + rating)
             $('#gif-display').append(imgWrapper);
             $('#img' + i).append(img);
             $('#img' + i).append(rateLabel);
