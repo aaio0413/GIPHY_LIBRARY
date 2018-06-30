@@ -32,7 +32,7 @@ var displayGifs = function() {
     // var rating = 'Y';
     // var displayNum = 15;
 
-    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=caBX4qhQ77HZfPBVdMDJqKUgRojKGpZh&q=" + keyword + "&limit=15&offset=0&rating=G&lang=en"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=caBX4qhQ77HZfPBVdMDJqKUgRojKGpZh&q=" + keyword + "&limit=15&offset=0&lang=en"
     $.ajax({
         url: queryURL,
         method: "GET"

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Markazi Text', serif;
+}
+
 button {
     size: 15px;
 }
@@ -6,7 +10,6 @@ button {
     margin: 25px, auto;
 }
 #buttons-view {
-    height: 25px;
     padding: 20px;
 }
 
@@ -32,13 +35,52 @@ img {
     order: 2;
 
 }
+form {
+    appearance: none;
+    font-family: 'Markazi Text', serif;
+}
+
+form label {
+    font-size: 23px;
+}
+
+#keyword-input {
+    height: 26px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#add-button {
+    color: white;
+    height: 38px;
+    -webkit-appearance: button;
+    cursor: pointer;
+    /* -webkit-border-radius: 3px; */
+    /* -moz-border-radius: 3px; */
+    border-radius: 3px;
+    background-color: rgb(185, 11, 11);
+    font-size: 19px;
+}
 
 .gifs {
     border: solid 2px gray;
 }
 
 .add-gifs {
+    padding: 5px;
+    margin: 5px;
     margin-right: 8px;
+    color: white;
+    height: 33px;
+    -webkit-appearance: button;
+    cursor: pointer;
+    /* -webkit-border-radius: 3px; */
+    /* -moz-border-radius: 3px; */
+    border-radius: 3rem;
+    background-color: rgb(4, 124, 124);
+    font-size: 18px;
+
 }
 
 .form {
